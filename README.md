@@ -5,7 +5,8 @@ API for the german regional statistics site (https://www.regionalstatistik.de) v
 
 You can install the package in R with devtools:
 
-´´´R
+```r
 require(devtools)
 install_github('regenesis', 'cspersonal')
-´´´
+```
+
