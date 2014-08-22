@@ -1,6 +1,6 @@
 Package: regenesis
 Type: Package
-Title: api for regenesis
+Title: R-api for regenesis
 Version: 0.1
 Date: 2014-07-15
 Author: Stefan Berwing
