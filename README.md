@@ -10,13 +10,16 @@ You can install the package in R with devtools:
 ```r
 # installing
 require(devtools)
-install_github('regenesis', 'cspersonal')
+# install_github('regenesis', 'cspersonal') old code
+install_github('cspersonal/regenesis')
 
 # loading
 require(regenesis)
 
 # example
 # search static db shipped with regenesis
+# new statistics have been added to regionalstatistik.de since the creation of the package
+# therefore also check Friedrichs page and its table-ids (see e.g. http://regenesis.pudo.org/regional/statistics/erhebung-uber-die-rinderbestande.41312.html)
 rgSearch("domain")
 
 # download data using the id from the search results
